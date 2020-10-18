@@ -23,9 +23,32 @@
 /*HERO*/
 
 
-body, html {
+body {
 	height: 100%;
 	margin: 0;
 	background-color: rgb(219, 219, 219);
-  }
-  
+}
+textarea{
+	resize: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+footer{
+	/* Valores: 0 = horizontal :: -5 = vertical :: 10 = difuminado */
+	box-shadow: 0 -5px 10px rgba(0, 0, 0, .3);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~ PAGINA DE CONTACTO ~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#bodyContacto{
+	background-color: #fff;
+}
+
+.deleteBorder{
+	border-radius: 3px;
+}
+
