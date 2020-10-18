@@ -1,35 +1,57 @@
-
-.margenes{
-	margin-top: 10%;
-	margin-bottom: 15%;
-	
-}
-
-.margenes-footer{
-	padding: 30px 0;
-}
-
-.jumbotron{
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner1.jpg") no-repeat center center fixed;
-	display: table; /* Revisar */
-	height: 70%;
-	position: relative; /* Revisar */
-	width: 100%;
-	background-size: cover;
-	color: white;
-}
-
-
-/*HERO*/
-
-
 body {
 	height: 100%;
 	margin: 0;
-	background-color: rgb(219, 219, 219);
+	background-color: #fff;
 }
+
 textarea{
 	resize: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~ PAGINA DE PRESENTACION ~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.slider-principal{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner1.jpg") no-repeat center center fixed;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 450px;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+.slider-principal div h1{
+	letter-spacing: 5px;
+}
+.slider-principal div p{
+	font-size: 22px;
+	margin-top: 20px;
+}
+#primera-seccion-presentacion{
+	background-color: hsl(0, 0%, 80%);
+	padding: 40px 0;
+}
+#segunda-seccion-presentacion{
+	margin: 50px 0;
+	text-align: center;
+}
+#segunda-seccion-presentacion div a div{
+	height: 200px;
+}
+.carrousel-generos div > div img{
+	height: 200px;
+	display: block;
+	width: 340px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -37,19 +59,15 @@ textarea{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 footer{
 	/* Valores: 0 = horizontal :: -5 = vertical :: 10 = difuminado */
-	box-shadow: 0 -5px 10px rgba(0, 0, 0, .3);
+	box-shadow: 0 -3px 10px rgba(0, 0, 0, .3);
 }
 footer > .contFooter {
-	min-width: 1200px !important;
+	min-width: 1100px !important;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~ PAGINA DE CONTACTO ~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-#bodyContacto{
-	background-color: #fff;
-}
 
 .deleteBorder{
 	border-radius: 3px;
