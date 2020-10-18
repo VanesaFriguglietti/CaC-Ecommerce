@@ -39,6 +39,9 @@ footer{
 	/* Valores: 0 = horizontal :: -5 = vertical :: 10 = difuminado */
 	box-shadow: 0 -5px 10px rgba(0, 0, 0, .3);
 }
+footer > .contFooter {
+	min-width: 1200px !important;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~ PAGINA DE CONTACTO ~~~~~~~~ */
