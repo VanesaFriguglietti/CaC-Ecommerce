@@ -45,13 +45,19 @@ a:hover{
 	margin: 50px 0;
 	text-align: center;
 }
-#segunda-seccion-presentacion div a div{
-	height: 200px;
+/* 300px es el Tamaño de la imagen */
+/* Tamaño del carousel */
+#carouselExampleControls{
+	height: 300px !important;
 }
+.texto-seccion-presentacion{
+	height: 170px !important;
+}
+/* Imagenes del carrousel de generos */
 .carrousel-generos div > div img{
-	height: 200px;
+	height: 300px;
 	display: block;
-	width: 340px;
+	width: 100%;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
