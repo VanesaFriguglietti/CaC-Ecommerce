@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Registrarse</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Font Awesome(iconos)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="../css/estilo.css">
+
+</head>
+
+<body id="bodyContacto">
+
+    <main class="container">
+
+        <div class="row my-4">
+            <div class="card col-8 mx-auto"
+                style="box-shadow: 1px 1px 0 0  rgba(0, 0, 0, .1),0 0 2px 2px rgba(0, 0, 0, .1);">
+                <h1 class="text-center display-4 py-2">Registrate</h1>
+
+                <!-- FORMULARIO -->
+                <form action="" method="post" class="row">
+
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" class="form-control"
+                                placeholder="Ingrese su nombre" aria-describedby="helpNombre">
+                            <small id="helpNombre" class="text-muted d-none">asd</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido" id="apellido" class="form-control"
+                                placeholder="Ingrese su apellido" aria-describedby="helpApellido">
+                            <small id="helpApellido" class="text-muted d-none"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dni">DNI</label>
+                            <input type="number" name="dni" id="dni" class="form-control" placeholder="00.000.000"
+                                aria-describedby="helpDNI">
+                            <small id="helpDNI" class="text-muted d-none"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="fechaNac">Fecha de Nacimiento</label>
+                            <input type="date" name="fechaNac" id="fechaNac" class="form-control"
+                                aria-describedby="helpFechaNac">
+                            <small id="helpFechaNac" class="text-muted d-none"></small>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="number" name="telefono" id="telefono" class="form-control"
+                                placeholder="Ingrese su numero" aria-describedby="helpTelefono">
+                            <small id="helpTelefono" class="text-muted d-none"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="correo">Correo</label>
+                            <input type="email" name="correo" id="correo" class="form-control"
+                                placeholder="Ingrese su correo" aria-describedby="helpCorreo">
+                            <small id="helpCorreo" class="text-muted d-none"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="clave">Contraseña</label>
+                            <input type="password" name="clave" id="clave" class="form-control" placeholder="********"
+                                aria-describedby="helpClave">
+                            <small id="helpClave" class="text-muted d-none"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="claveRep">Repita su contraseña</label>
+                            <input type="password" name="claveRep" id="claveRep" class="form-control"
+                                placeholder="********" aria-describedby="helpClaveRep">
+                            <small id="helpClaveRep" class="text-muted d-none"></small>
+                        </div>
+                    </div>
+
+                    <div class="col-12 my-3">
+                        <button type="submit" class="btn btn-dark btn-block btn-lg"
+                            name="formularioRegistro">Registrarse</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <!--PIE DE PAGINA-->
+    <footer class="bg-dark pb-3 pt-4">
+        <div class="container contFooter">
+            <div class="row justify-content-between">
+                <div class="col-3 mr-4">
+                    <h2 class="text-white mb-4">Contactanos</h2>
+                    <form action="" method="POST">
+                        <div class="form-group">
+                            <input type="email" class="form-control deleteBorder" name="correo"
+                                placeholder="Ingrese su Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control deleteBorder" name="comentario" rows="4"
+                                placeholder="Ingrese sus comentarios"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-block btn-info">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-4">
+                    <h2 class=" text-white mb-4">Compañia</h2>
+                    <address class="text-white ">
+                        <p><i class="fa fa-home mr-3"></i>Alsina 3425, Balvanera, CABA</p>
+                        <p><i class="fa fa-envelope mr-3"></i>TiendaOnline@gmail.com</p>
+                        <p><i class="fa fa-phone mr-3"></i>56 124-453-956</p>
+                    </address>
+                </div>
+                <div class="col-3">
+                    <h2 class=" text-white mb-4">Redes sociales</h2>
+                    <p class="text-white"><i class="fa fa-facebook-official mr-3"></i>Siguenos en Facebook</p>
+                    <p class="text-white"><i class="fa fa-instagram mr-3"></i>Siguenos en Instagram</p>
+                    <p class="text-white"><i class="fa fa-twitter mr-3"></i>Siguenos en Twitter</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudf ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
