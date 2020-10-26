@@ -1,7 +1,7 @@
 body {
 	height: 100%;
 	margin: 0;
-	background-color: #fff;
+	padding: 0;
 }
 
 textarea{
@@ -147,3 +147,22 @@ footer > .contFooter {
 .titulos-pag-contacto{
 	font-size: 50px;
 }
+
+/*
+ANTES DE PEGAR PONER TUS ESTILOS REVISAR LO SIGUIENTE : 
+- NO MODIFICAR ESTILOS DE LAS CLASES DE BOOSTRAP NI ESTILOS DE LAS ETIQUETAS DE HTML
+- USAR NOMBRES MAS "LARGOS" ( DESCRIPTIVOS ) EN LOS NOMBRES DE LAS CLASES 
+- Por ejemplo. En ves de usar .detalle usar .detalle-productos
+
+ANTES DE HACER EL PUSH BORRAR ESTE COMENTARIO
+*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~ PAGINA DE DETALLE DE PRODUCTO ~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~ PAGINA DE CATALOGO DE PRODUCTOS ~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
