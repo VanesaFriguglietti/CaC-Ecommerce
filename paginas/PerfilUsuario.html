@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		
+		<!--Estilos CSS-->
+        <link rel="stylesheet" href="../css/estilo.css">
+
+        <title>Perfil de usuario</title>
+    </head>
+    <body>
+        <div class="container contenedor-usuario p-5 my-5">
+            <h1 style="text-align: center;">Mi Perfil</h1>
+            <div class="coustomer-profile">
+                <a class="d-inline-block" href="#">
+                    <img class="img-fluid rounded-circle customer-image" src="../img/perfil.jpg">
+                </a>
+                <h5>Usuario123#</h5>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <!--Primer Nombre-->
+                        <div class="form-group">
+                            <label for="accountFirstName">Primer Nombre *</label>
+                            <input class="form-control form-control-sm" id="accountFirstName" type="text" placeholder="Primer Nombre *" value="Ejemplo" required>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <!--Segundo Nombre-->
+                        <div class="form-group">
+                            <label for="accountLastName">Segundo Nombre *</label>
+                            <input class="form-control form-control-sm" id="accountLastName" type="text" placeholder="Segundo Nombre *" value="Ejemplo" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!--Email-->
+                        <div class="form-group">
+                            <label for="accountEmail">Correo Electronico *</label>
+                            <input class="form-control form-control-sm" id="accountEmail" type="email" placeholder="Correo Electronico *" value="Usuario@email.com" required>
+                        </div>
+                    </div>
+                    
+                    <!--Salto de columna-->
+                    <div class="w-100"></div>
+
+                    <div class="col-12 col-md-6">
+                        <!--Contraseña Actual-->
+                        <div class="form-group">
+                            <label for="accountPassword">Contraseña Actual *</label>
+                            <input class="form-control form-control-sm" id="accountPassword" type="password" placeholder="Contraseña Actual *" required>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <!--Contraseña Nueva-->
+                        <div class="form-group">
+                            <label for="accountNewPassword">Contraseña Nueva *</label>
+                            <input class="form-control form-control-sm" id="accountNewPassword" type="password" placeholder="Contraseña Nueva *" required>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <!--Telefono-->
+                        <div class="form-group">
+                            <label for="form-label">Telefono</label>
+                            <input class="form-control form-control-sm" id="phone" type="text">  
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <!--Codigo Postal-->
+                        <div class="form-group">
+                            <label for="form-label">Código Postal</label>
+                            <input class="form-control form-control-sm" id="codigoPostal" type="text">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <!--DNI-->
+                        <div class="form-group">
+                            <label for="dni">DNI</label>
+                            <input type="number" name="dni" id="dni" class="form-control" placeholder="00.000.000"
+                                aria-describedby="helpDNI">
+                            <small id="helpDNI" class="text-muted d-none"></small>
+                        </div>
+                    </div>
+
+                    <!--Salto de columna-->
+                    <div class="w-100"></div>
+                    
+                    <div class="col-12 col-sm-6">
+                        <!--Fecha de Nacimiento-->
+                        <div class="form-group">
+                            <label for="fechaNac">Fecha de Nacimiento</label>
+                            <input type="date" name="fechaNac" id="fechaNac" class="form-control"
+                                aria-describedby="helpFechaNac">
+                            <small id="helpFechaNac" class="text-muted d-none"></small>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <!--Boton-->
+                        <button class="btn btn-success" type="submit">Guardar Cambios</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+    </body>
+</html>
